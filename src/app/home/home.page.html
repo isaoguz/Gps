@@ -1,0 +1,9 @@
+
+<ion-content>
+  <ion-card>
+<ion-button expand="block" (click)="watch()"> WHERE AM I ?</ion-button>
+<p>Position: {{coords}}</p>
+<p>Accuracy : {{accuracy}}</p>
+<p *ngIf="error">{{error}}</p>
+</ion-card>
+</ion-content>
